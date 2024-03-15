@@ -9,8 +9,8 @@ library(dplyr)
 # Establish database connection
 connection_string <- paste0(
   "Driver=ODBC Driver 17 for SQL Server;",
-  "Server=LAPTOP-QMGI0I7U\\SQLEXPRESS;",
-  "Database=test3;",
+  "Server=Your_server_name;",
+  "Database=Your_database_name;",
   "trusted_connection=yes;"
 )
 
